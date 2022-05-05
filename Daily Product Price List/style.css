@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Poppins:wght@300;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #000;
+    color:#ccc;
+}
+
+.container-fluid > h1 {
+    color:#ccc;
+    font-size: 32px;
+    font-weight: 600;
+    font-family: 'Koulen', cursive;
+}
+
+.daily {
+    font-size: 16px;
+    color:#ccc;
+    font-family: 'Koulen', cursive;
+    font-weight: 500;
+}
+
+.table > * {
+    color:#ccc;
+    cursor: pointer;
+}
+
+.table > thead {
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.table tbody tr th {
+    font-size: 12px;
+}
+
+.table thead tr th:hover {
+    color:aliceblue;
+}
+
+.table tbody tr:hover {
+    background: rgb(126, 124, 129);
+}
